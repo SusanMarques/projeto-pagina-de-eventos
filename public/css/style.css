@@ -1,0 +1,112 @@
+body{
+    font-family: 'Roboto', sans-serif;   
+    min-height: 100vh;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+header{
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+.banner{
+    width: 50%;
+}
+
+.row{
+    margin: 0;
+}
+
+.container-fluid{
+    padding: 0;
+}
+.btn-primary:hover{
+    background-color: blue;
+    border-color: #ccc;
+}
+.msg{
+    background-color: #c6f3d1;
+    color: beige;
+    border: #757575;
+}
+#navbar img{
+    width: 80px;
+    margin-left: 50px;
+}
+#navbar{
+    justify-content: space-between;
+    padding: 5px 0;
+    margin-right: 50px;
+}
+#navbar a{
+    font-size: 16px;
+    color: #757575;
+} 
+#navbar a:hover{
+    font-size: 18px;
+    color: black;
+} 
+
+#search-container{
+    background-image: url("../img/eventos.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    padding: 50px;
+    text-align: center;
+}
+#search-container h1{
+    color: #fff;
+  
+}
+
+#events-container{
+    padding: 50px;
+}
+#events-container h2{
+    margin-bottom: 10px;
+}
+#events-container .subtitle{
+    color: #757575;
+    margin-bottom: 30px;
+}
+#cards-container{
+    display: flex;
+}
+#events-container .card{
+    flex: 1 1 0;
+    max-width: 25%;
+    border-radius: 10px;
+    padding: 0;
+    margin: 5px;
+}
+#events-container img{
+    max-height: 150px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card .card-title{
+    color: #212121;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.card-participants{
+    font-size: 14px;
+    color: #757575;
+}
+
+footer{
+    text-align: center;
+    background-color: #353E48;
+    color: #fff;
+    padding: 30px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+footer p{
+    margin-bottom: 0;
+}
