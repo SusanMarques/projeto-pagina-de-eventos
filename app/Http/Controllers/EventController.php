@@ -3,9 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
 use App\Models\Event;
-
 use App\Models\user;
 
 class EventController extends Controller
@@ -33,12 +31,12 @@ class EventController extends Controller
 
    public function store(Request $request){
       $event = new Event;
-
-      $event->title = $request -> title;
+   
+      $event->title = $request->title;
       $event->date = $request->date;
-      $event->city = $request -> city;
-      $event->private = $request -> private;
-      $event->description = $request -> description;
+      $event->city = $request->city;
+      $event->private = $request ->private;
+      $event->description = $request->description;
       $event->items = $request->items;
 
       //image upload
