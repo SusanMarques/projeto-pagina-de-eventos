@@ -12,7 +12,9 @@ header{
 .banner{
     width: 50%;
 }
-
+#description-container{
+    margin-top: 20px;
+}
 .row{
     margin: 0;
 }
