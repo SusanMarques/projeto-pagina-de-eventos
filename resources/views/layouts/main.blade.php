@@ -35,7 +35,7 @@
                     </li>
                     @auth
                     <li class="nav-item">
-                        <a href="/events/dashboard" class="nav-link">Meus eventos</a>
+                        <a href="/dashboard" class="nav-link">Meus eventos</a>
                     </li>
 
                     <li class="nav-item">

@@ -51,7 +51,7 @@ header{
 } 
 
 #search-container{
-    background-image: url("../img/eventos2.png");
+    background-image: url("../img/eventos.jpg");
     background-size: cover;
     background-position: center;
     height: 400px;
@@ -59,7 +59,7 @@ header{
     text-align: center;
 }
 #search-container h1{
-    color: white;
+    color: black;
     text-shadow: -1px -1px 0px #FFF,
   
 }

@@ -25,19 +25,11 @@ Route::get('/contato', function () {
     return view('contato');
 });
 
+Route::get('/dashboard', [EventController::class,'dashboard'])->middleware('auth');
 
-Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard',function(){
-    return view('dashboard');
-})->name('dashboard');
+Route::get('/events/dashboard',[EventController::class,'dashboard'])->name('events.dashboard');
 
-Route::get('/produtos', function () {
-    $busca = request('search');
 
-    return view('produtos', ['busca' => $busca]);
-});
-Route::get('/produtos_teste/{id?}', function ($id = 1) {
-    return view('produtos',['id' => $id]);
-});
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),

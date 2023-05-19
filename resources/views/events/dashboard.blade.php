@@ -3,7 +3,7 @@
 @section('title','Dashboard')
 
 @section('content')
-    <h1>Meus eventos</h1>
-   
-@endsection
 
+<h1>Meus eventos</h1>
+
+@endsection
