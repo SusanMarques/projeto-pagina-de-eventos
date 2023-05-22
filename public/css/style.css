@@ -16,6 +16,16 @@ header{
 #description-container{
     margin-top: 20px;
 }
+.dashboard-title-container {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.dashboard-events-container th{
+width: 25%;
+}
+.dashboard-events-container form{
+    display: inline-block;
+}
 .row{
     margin: 0;
 }
@@ -23,6 +33,7 @@ header{
 .container-fluid{
     padding: 0;
 }
+
 .btn-primary:hover{
     background-color: blue;
     border-color: #ccc;
