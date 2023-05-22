@@ -26,6 +26,14 @@ width: 25%;
 .dashboard-events-container form{
     display: inline-block;
 }
+.img-fluid{
+    border-radius: 5%;
+}
+.img-preview{
+    width: 100px;
+    margin-top: 30px;
+
+}
 .row{
     margin: 0;
 }
