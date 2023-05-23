@@ -31,4 +31,4 @@ Route::get('/dashboard', [EventController::class,'dashboard'])->middleware('auth
 
 Route::get('/events/dashboard',[EventController::class,'dashboard'])->name('events.dashboard');
 
-
+Route::post('/events/join/{id}',[EventController::class,'joinEvent'])->middleware('auth');
